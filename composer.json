@@ -11,6 +11,7 @@
 		"phpunit/phpunit": "~4.0",
 		"phpspec/phpspec": "~2.1",
 		"laracasts/generators": "~1.1"
+        "illuminate/html": "5.*"
 	},
 	"autoload": {
 		"classmap": [
