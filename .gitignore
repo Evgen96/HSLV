@@ -52,3 +52,7 @@ crashlytics-build.properties
 .env.*.php
 .env.php
 .env
+.phpstorm.meta.php
+_intellij_phpdebug_validator.php
+_ide_helper.php
+_ide_helper_models.php
