@@ -30,6 +30,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
+		\Debugbar::error('Something is definitely going wrong.');
 		return view('welcome');
 	}
 

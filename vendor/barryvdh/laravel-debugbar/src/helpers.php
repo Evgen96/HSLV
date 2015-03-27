@@ -17,16 +17,16 @@ if (!function_exists('debug')) {
 }
 
 if (!function_exists('start_measure')) {
-    /**
-     * Starts a measure
-     *
-     * @param string $name Internal name, used to stop the measure
-     * @param string $label Public name
-     */
-    function start_measure($name, $label = null)
-    {
-        app('debugbar')->startMeasure($name, $label);
-    }
+	/**
+	 * Starts a measure
+	 *
+	 * @param string $name Internal name, used to stop the measure
+	 * @param string $label Public name
+	 */
+	function start_measure($name, $label = null)
+	{
+		app('debugbar')->startMeasure($name, $label);
+	}
 }
 
 if (!function_exists('stop_measure')) {
