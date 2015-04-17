@@ -30,7 +30,8 @@
         "App\\Providers\\RouteServiceProvider",
         "Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider",
         "Barryvdh\\Debugbar\\ServiceProvider",
-        "Laravel\\Socialite\\SocialiteServiceProvider"
+        "Laravel\\Socialite\\SocialiteServiceProvider",
+        "Zizaco\\Entrust\\EntrustServiceProvider"
     ],
     "eager": [
         "Illuminate\\Auth\\AuthServiceProvider",
@@ -49,7 +50,8 @@
         "App\\Providers\\ConfigServiceProvider",
         "App\\Providers\\EventServiceProvider",
         "App\\Providers\\RouteServiceProvider",
-        "Barryvdh\\Debugbar\\ServiceProvider"
+        "Barryvdh\\Debugbar\\ServiceProvider",
+        "Zizaco\\Entrust\\EntrustServiceProvider"
     ],
     "deferred": {
         "command.app.name": "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",

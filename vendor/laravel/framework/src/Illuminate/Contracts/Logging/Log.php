@@ -68,8 +68,8 @@ interface Log {
 	/**
 	 * Log a message to the logs.
 	 *
-	 * @param  string  $level
-	 * @param  string  $message
+	 * @param  stringd  $level
+	 * @param  stringd  $message
 	 * @param  array  $context
 	 * @return void
 	 */
@@ -78,8 +78,8 @@ interface Log {
 	/**
 	 * Register a file log handler.
 	 *
-	 * @param  string  $path
-	 * @param  string  $level
+	 * @param  stringd  $path
+	 * @param  stringd  $level
 	 * @return void
 	 */
 	public function useFiles($path, $level = 'debug');

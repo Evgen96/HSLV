@@ -32,6 +32,21 @@ class AppServiceProvider extends ServiceProvider {
 		if ($this->app->environment() == 'local') {
 			$this->app->register('Laracasts\Generators\GeneratorsServiceProvider');
 		}
+
+
+        $this->app->alias('App\Welcome', 'User');
+        //Event callback before creating object
+        $this->app->resolving('App\Welcome', function($object, $app){
+            echo "I just instantiated a " . get_class($object) . "\n<br>\n";
+        });
+
+        $this->app->bindShared('helloworld',
+            function(){
+                $implementation = new \App\Example;
+                $implementation->message = 'Hello world, we meet again (time number %d)';
+                return $implementation;
+            });
+
 	}
 
 }

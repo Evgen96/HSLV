@@ -150,6 +150,7 @@ return [
 		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 		'Barryvdh\Debugbar\ServiceProvider',
 		'Laravel\Socialite\SocialiteServiceProvider',
+        'Zizaco\Entrust\EntrustServiceProvider',
 
 	],
 
@@ -202,6 +203,7 @@ return [
 		'Html'      => 'Illuminate\Html\HtmlFacade',
 		'Form'      => 'Illuminate\Html\FormFacade',
 		'Debugbar'  => 'Barryvdh\Debugbar\Facade',
+        'Entrust'   => 'Zizaco\Entrust\EntrustFacade',
 
 	],
 

@@ -30,7 +30,9 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		\Debugbar::error('Something is definitely going wrong.');
+//        $user = User::where('name', '=', 'john')->first();
+//        $user->attachRole($admin);
+//        \Debugbar::info($user);
 		return view('welcome');
 	}
 
