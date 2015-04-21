@@ -16,7 +16,11 @@
         "illuminate/html": "5.*",
         "barryvdh/laravel-ide-helper": "~2.0",
         "doctrine/dbal" : "~2.3",
-		"barryvdh/laravel-debugbar": "~2.0"
+		"barryvdh/laravel-debugbar": "~2.0",
+        "behat/behat": "~3.0",
+        "behat/mink": "~1.6",
+        "behat/mink-extension": "~2.0",
+        "behat/mink-goutte-driver": "~1.1"
 	},
 	"autoload": {
 		"classmap": [

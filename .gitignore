@@ -56,3 +56,5 @@ crashlytics-build.properties
 _intellij_phpdebug_validator.php
 _ide_helper.php
 _ide_helper_models.php
+/vendor
+/node_modules
